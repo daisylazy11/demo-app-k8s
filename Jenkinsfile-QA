@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        APP_GIT_URL = "https://github.com/pornpasok/demo-app-k8s.git"
+        APP_GIT_URL = "https://github.com/daisylazy11/demo-app-k8s.git"
         APP_BRANCH = "main"
         //APP_TAG = "latest"
         APP_NAME = "demo-app-k8s"
